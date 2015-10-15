@@ -1,0 +1,14 @@
+{
+	"name": "theme-railgun",
+	"publisher": "be5invis",
+	"contributes": {
+		"themes": [
+			{
+				"id": "vs-theme-be5invis-railgun",
+				"label": "Railgun",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Railgun.tmTheme"
+			}
+		]
+	}
+}
