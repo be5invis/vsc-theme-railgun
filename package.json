@@ -1,12 +1,12 @@
 {
 	"name": "theme-railgun",
-	"version": "0.5.0",
+	"version": "0.5.1",
 	"publisher": "be5invis",
 	"engines": { "vscode": "*" },
 	"displayName": "Railgun Theme",
 	"description": "Railgun themes for VS Code.",
 	"categories": [ "Themes" ],
-	"icon": "icon.svg",
+	"icon": "images/icon.png",
 	"contributes": {
 		"themes": [
 			{
