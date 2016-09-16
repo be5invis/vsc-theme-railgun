@@ -14,15 +14,17 @@
 				<key>caret</key>
 				<string>#f8f8f0</string>
 				<key>foreground</key>
-				<string>#A6A2A0</string>
+				<string>#bcac8f</string>
 				<key>invisibles</key>
 				<string>#3b3a32</string>
 				<key>lineHighlight</key>
 				<string>#212121</string>
+				<key>selectionHighlight</key>
+				<string>#212121</string>
 				<key>currentLineBorder</key>
 				<string>#1D1D1D</string>
 				<key>selection</key>
-				<string>#333333</string>
+				<string>#485460</string>
 				<key>selectionForeground</key>
 				<string>#ffffff</string>
 				<key>findHighlight</key>
@@ -49,33 +51,33 @@
 			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
-			<string>comment</string>
+			<string>comment, punctuation.comment</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#555555</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Delimiter</string>
-			<key>scope</key>
-			<string>delimiter, bracket, brace</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#86867B</string>
+				<string>#5f5f5f</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Operator</string>
 			<key>scope</key>
-			<string>punctuation, keyword.operator, delimiter.tag, punctuation.tag, tag.html, tag.xml</string>
+			<string>keyword.operator</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#75715E</string>
+				<string>#eb9647</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Punctuation</string>
+			<key>scope</key>
+			<string>punctuation, delimiter, bracket, brace, delimiter.tag, punctuation.tag, tag.html, tag.xml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#7f7b66</string>
 			</dict>
 		</dict>
 		<dict>
@@ -86,7 +88,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B8A07D</string>
+				<string>#cc7f66</string>
 			</dict>
 		</dict>
 		<dict>
@@ -97,7 +99,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E3964D</string>
+				<string>#d19961</string>
 			</dict>
 		</dict>
 		<dict>
@@ -130,7 +132,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FF8F2E</string>
+				<string>#ea603e</string>
 			</dict>
 		</dict>
 		<dict>
@@ -140,10 +142,8 @@
 			<string>storage, storage.type, storage.type.ts, storage.type.var.ts, storage.type.js, storage.type.var.js, storage.type.const.ts, storage.type.let.ts, storage.type.let.js, storage.type.const.js</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
-				<string>#FFC62F</string>
+				<string>#FEBD2F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -176,7 +176,18 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#7D8991</string>
+				<string>#798686</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Pointer, access, etc</string>
+			<key>scope</key>
+			<string>meta.ptr, meta.pointer, meta.address, meta.array.cxx</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ae926b</string>
 			</dict>
 		</dict>
 		<dict>
@@ -216,37 +227,12 @@
 				<string>#7D8991</string>
 			</dict>
 		</dict>
-		<dict>
-			<key>name</key>
-			<string>Library function</string>
-			<key>scope</key>
-			<string>support.function</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#F85931</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Invoke</string>
-			<key>scope</key>
-			<string>support.function.function-call</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#7D8991</string>
-			</dict>
-		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Preprocessor</string>
 			<key>scope</key>
-			<string>meta.preprocessor, meta.ptr, meta.address</string>
+			<string>meta.preprocessor</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -257,24 +243,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Library constant</string>
+			<string>Library class</string>
 			<key>scope</key>
-			<string>support.constant</string>
+			<string>support.type, support.class, support.function, support.constant</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F85931</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Library class&#x2f;type</string>
-			<key>scope</key>
-			<string>support.type, support.class</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F85931</string>
+				<string>#f5933d</string>
 			</dict>
 		</dict>
 		<dict>
