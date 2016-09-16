@@ -1,6 +1,6 @@
 {
 	"name": "theme-railgun",
-	"version": "1.1.1",
+	"version": "1.1.2",
 	"publisher": "be5invis",
 	"engines": { "vscode": "*" },
 	"displayName": "Railgun Theme",
@@ -16,8 +16,14 @@
 				"path": "./themes/Railgun.tmTheme"
 			},
 			{
+				"id": "vs-theme-be5invis-railgun-corona",
+				"label": "Railgun Corona",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Railgun Corona.tmTheme"
+			},
+			{
 				"id": "vs-theme-be5invis-railgun-alternate",
-				"label": "Railgun Alternate",
+				"label": "Railgun Pale",
 				"uiTheme": "vs-dark",
 				"path": "./themes/Railgun Alternate.tmTheme"
 			}
