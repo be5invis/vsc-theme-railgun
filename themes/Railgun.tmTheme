@@ -7,7 +7,7 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Railgun Corona</string>
+	<string>Railgun</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -92,7 +92,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#8A9E78</string>
+				<string>#cc7f66</string>
 			</dict>
 		</dict>
 		<dict>
@@ -103,7 +103,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#CF7F8F</string>
+				<string>#DB9833</string>
 			</dict>
 		</dict>
 		<dict>
@@ -344,11 +344,11 @@
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>443ea9e1-b7b8-4c18-a7f7-751ca15afaf7</string>
+	<string>1cdf916d-9e6e-2485-89b7-c97a0dfb53d5</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>semanticClass</key>
-	<string>theme.dark.railgun_corona</string>
+	<string>theme.dark.railgun_alternate</string>
 	<key>author</key>
 	<string>be5invis</string>
 </dict>
