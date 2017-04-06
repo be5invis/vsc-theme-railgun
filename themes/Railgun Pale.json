@@ -1,0 +1,162 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "Railgun Pale",
+	"include": "./Editor.json",
+	"tokenColors": [
+		{
+			"settings": {
+				"background": "#1E1E1E",
+				"caret": "#CCCCCC",
+				"foreground": "#BFBCB6",
+				"invisibles": "#555555",
+				"lineHighlight": "#292929",
+				"selection": "#333333"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#555555"
+			}
+		},
+		{
+			"name": "Whitespace",
+			"scope": "whitespace",
+			"settings": {
+				"foreground": "#555555"
+			}
+		},
+		{
+			"name": "Foreground",
+			"scope": "constant.other, source.php.embedded.line, tag.html",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#BFBCB6"
+			}
+		},
+		{
+			"name": "Delimiter",
+			"scope": "delimiter",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#96968B"
+			}
+		},
+		{
+			"name": "Property",
+			"scope": "entity.name, entity.other.attribute-name, entity.other.attribute-name.html, support.type.property-name, entity.name.tag.table",
+			"settings": {
+				"foreground": "#C7B48B"
+			}
+		},
+		{
+			"name": "Tag Name",
+			"scope": "entity.name.tag, declaration.tag",
+			"settings": {
+				"foreground": "#BF7E06"
+			}
+		},
+		{
+			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"scope": "constant.numeric, constant.language, support.constant, constant.character, variable.parameter, punctuation.section.embedded, keyword.other.unit",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#C88623"
+			}
+		},
+		{
+			"name": "Class, Support",
+			"scope": "entity.name.class, entity.name.type.class, support.type, support.class, builtin.function",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#DDDDDD"
+			}
+		},
+		{
+			"name": "String, Symbols, Inherited Class, Markup Heading",
+			"scope": "string, constant.other.symbol, entity.other.inherited-class, markup.heading, punctuation.string",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#b58913"
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": "keyword.operator, constant.other.color, delimiter.tag, punctuation.tag",
+			"settings": {
+				"foreground": "#7f7f7f"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword, entity.name.tag.css",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#FFC62F"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": "invalid",
+			"settings": {
+				"background": "#F2777A",
+				"fontStyle": "",
+				"foreground": "#d23535"
+			}
+		},
+		{
+			"name": "Deprecated",
+			"scope": "invalid.deprecated",
+			"settings": {
+				"background": "#CC99CC",
+				"fontStyle": "",
+				"foreground": "#40333C"
+			}
+		},
+		{
+			"name": "Diff foreground",
+			"scope": "markup.inserted.diff, markup.deleted.diff, meta.diff.header.to-file, meta.diff.header.from-file",
+			"settings": {
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
+			"name": "Diff insertion",
+			"scope": "markup.inserted.diff, meta.diff.header.to-file",
+			"settings": {
+				"foreground": "#718c00"
+			}
+		},
+		{
+			"name": "Diff deletion",
+			"scope": "markup.deleted.diff, meta.diff.header.from-file",
+			"settings": {
+				"foreground": "#c82829"
+			}
+		},
+		{
+			"name": "Diff header",
+			"scope": "meta.diff.header.from-file, meta.diff.header.to-file",
+			"settings": {
+				"foreground": "#FFFFFF",
+				"background": "#4271ae"
+			}
+		},
+		{
+			"name": "Diff range",
+			"scope": "meta.diff.range",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#3e999f"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": "storage, storage.type, storage.type.ts, storage.type.var.ts, storage.type.js, storage.type.var.js, storage.type.const.ts, storage.type.let.ts, storage.type.let.js, storage.type.const.js",
+			"settings": {
+				"foreground": "#FFC62F"
+			}
+		}
+	]
+}

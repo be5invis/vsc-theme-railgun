@@ -1,0 +1,21 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "Railgun Chroma",
+	"include": "./Railgun.json",
+	"tokenColors": [
+		{
+			"name": "String",
+			"scope": "string, meta.property-value.string, support.constant.property-value.string, meta.structure.dictionary.value.json string.quoted.double.json, meta.structure.dictionary.json string.quoted.double.json, meta.preprocessor string",
+			"settings": {
+				"foreground": "#8A9E78"
+			}
+		},
+		{
+			"name": "Primitive Literals",
+			"scope": "constant.numeric, meta.property-value.numeric, support.constant.property-value.numeric, meta.property-value.color, support.constant.property-value.color,constant.language",
+			"settings": {
+				"foreground": "#CF7F8F"
+			}
+		}
+	]
+}
