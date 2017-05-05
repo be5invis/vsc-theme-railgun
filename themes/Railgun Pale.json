@@ -4,16 +4,6 @@
 	"include": "./Editor.json",
 	"tokenColors": [
 		{
-			"settings": {
-				"background": "#1E1E1E",
-				"caret": "#CCCCCC",
-				"foreground": "#BFBCB6",
-				"invisibles": "#555555",
-				"lineHighlight": "#292929",
-				"selection": "#333333"
-			}
-		},
-		{
 			"name": "Comment",
 			"scope": "comment",
 			"settings": {

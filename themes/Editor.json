@@ -2,13 +2,16 @@
 	"$schema": "vscode://schemas/color-theme",
 	"name": "Railgun Editor Colors",
 	"colors": {
-		"editorBackground": "#1e1e1e",
-		"editorForeground": "#D4D4D4",
-		"editorInactiveSelection": "#3A3D41",
-		"editorIndentGuides": "#404040",
-		"editorSelectionHighlight": "#add6ff26",
-		"statusBarBackground": "#222222",
-		"statusBarNoFolderBackground": "#222222",
-		"statusBarDebuggingBackground": "#222222"
+		"editor.background": "#1d1d1d",
+		"editor.foreground": "#bcac8f",
+		"editor.inactiveSelectionBackground": "#3A3D41",
+		"editor.indentGuides": "#404040",
+		"editor.selectionHighlightBackground": "#add6ff26",
+		"editor.lineHighlightBorder": "#FFFFFF00",
+		"editor.lineHighlightBackground": "#FFFFFF08",
+		"statusBar.background": "#222222",
+		"statusBar.foreground": "#999999",
+		"statusBar.noFolderBackground": "#222222",
+		"statusBar.debuggingBackground": "#222222"
 	}
 }

@@ -4,28 +4,6 @@
 	"include": "./Editor.json",
 	"tokenColors": [
 		{
-			"settings": {
-				"background": "#1D1D1D",
-				"caret": "#f8f8f0",
-				"foreground": "#bcac8f",
-				"invisibles": "#3b3a32",
-				"lineHighlight": "#212121",
-				"selectionHighlight": "#212121",
-				"currentLineBorder": "#1D1D1D",
-				"selection": "#485460",
-				"selectionForeground": "#ffffff",
-				"findHighlight": "#ffe792",
-				"findHighlightForeground": "#000000",
-				"selectionBorder": "#1D1D1D",
-				"activeGuide": "#9d550fb0",
-				"bracketsForeground": "#FC913A",
-				"bracketsOptions": "underline",
-				"bracketContentsForeground": "#7D8991",
-				"bracketContentsOptions": "underline",
-				"tagsOptions": "stippled_underline"
-			}
-		},
-		{
 			"name": "Comment",
 			"scope": "comment, punctuation.comment",
 			"settings": {
@@ -165,7 +143,7 @@
 		},
 		{
 			"name": "Markdown Raw",
-			"scope": "markup.raw, markup.fenced",
+			"scope": "markup.raw, markup.fenced, markup.fenced_code",
 			"settings": {
 				"foreground": "#d19961"
 			}
