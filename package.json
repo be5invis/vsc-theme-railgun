@@ -1,6 +1,6 @@
 {
 	"name": "theme-railgun",
-	"version": "2.2.0",
+	"version": "2.2.1",
 	"publisher": "be5invis",
 	"engines": { "vscode": "^1.12.0" },
 	"displayName": "Railgun Theme",
