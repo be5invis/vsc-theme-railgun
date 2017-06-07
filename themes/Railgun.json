@@ -19,7 +19,7 @@
 		},
 		{
 			"name": "Punctuation",
-			"scope": "punctuation, delimiter, bracket, brace, paren, delimiter.tag, punctuation.tag, tag.html, tag.xml, meta.property-value punctuation.separator.key-value,punctuation.definition.metadata.md, string.link.md",
+			"scope": "punctuation, delimiter, bracket, brace, paren, delimiter.tag, punctuation.tag, tag.html, tag.xml, meta.property-value punctuation.separator.key-value,punctuation.definition.metadata.md, string.link.md, meta.brace",
 			"settings": {
 				"foreground": "#7f7b66"
 			}
