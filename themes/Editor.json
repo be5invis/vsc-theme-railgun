@@ -12,6 +12,8 @@
 		"statusBar.background": "#222222",
 		"statusBar.foreground": "#999999",
 		"statusBar.noFolderBackground": "#222222",
-		"statusBar.debuggingBackground": "#222222"
+		"statusBar.debuggingBackground": "#222222",
+		"editorOverviewRuler.border": "#00000000",
+		"badge.background": "#798283"
 	}
 }
